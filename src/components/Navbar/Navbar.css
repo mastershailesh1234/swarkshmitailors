@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 .navbar_content {
   background-color: rgba(236, 229, 37, 0.488);
@@ -11,4 +12,20 @@
 }
 .navbar_img {
   height: 100px;
+}
+.navbar_button {
+  background-color: rgba(0, 255, 255, 0.296);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 3px;
+  cursor: pointer;
+}
+.navbar_menu {
+  /* background-color: rgba(20, 255, 220, 0.163); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 5px solid rgba(20, 255, 220, 0.75); */
 }
