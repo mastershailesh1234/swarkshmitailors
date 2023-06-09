@@ -10,8 +10,9 @@
   top: 0;
 }
 .navbar_content {
-  background-color: rgba(236, 229, 37, 0.488);
+  background-color: #fbe206;
   width: 100%;
+  height: 25px;
   text-align: center;
 }
 .navbar_img {

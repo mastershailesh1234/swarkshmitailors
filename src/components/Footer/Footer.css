@@ -8,11 +8,11 @@
   align-items: center;
   width: 100%;
   color: black;
-  background-color: rgba(246, 211, 51, 0.588);
+  background-color: #fbe206e8;
   font-size: small;
 }
 .down {
-  background-color: rgba(198, 157, 11, 0.565);
+  background-color: #f8ec87;
   width: 100%;
   color: black;
   text-align: center;
