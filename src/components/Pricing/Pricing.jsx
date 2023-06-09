@@ -28,7 +28,7 @@ const price = [
 ];
 const Pricing = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ marginTop: "200px" }}>
       <h2 style={{ margin: "10px", borderBottom: "1px solid black" }}>
         Pricing
       </h2>

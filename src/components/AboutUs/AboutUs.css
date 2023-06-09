@@ -1,12 +1,12 @@
 .aboutus_img {
-  /* width: 100%; */
-  height: 100vh;
-  opacity: 0.6;
+  width: 100%;
+  height: 300vh;
+  opacity: 0.8;
 }
 
 .aboutus_herosection {
-  height: 80vh;
-  width: 100vw;
+  height: 100vh;
+  /* width: 96vw; */
   overflow: hidden;
   position: relative;
   display: flex;
@@ -17,34 +17,50 @@
 
 .aboutus_info {
   position: absolute;
-  top: 10%;
+  top: 50vh;
   width: 60%;
   color: aliceblue;
   background-color: rgba(54, 52, 52, 0.869);
   padding: 25px;
+  border: 2px solid white;
 }
-.aboutus_info2 {
-  position: absolute;
-  top: 45%;
-  width: 60%;
-  color: aliceblue;
-  background-color: rgba(54, 52, 52, 0.869);
-  padding: 25px;
-}
+
 @media only screen and (max-width: 700px) {
-  .aboutus_herosection {
-    height: 100vh;
-  }
-  .aboutus_info2 {
-    top: 50%;
-    width: 80%;
-  }
   .aboutus_info {
-    top: 7%;
+    top: 40vh;
     width: 80%;
+  }
+  .aboutus_herosection {
+    width: 100vw;
   }
 }
 .aboutus_info h3,
 .aboutus_info2 h3 {
   margin: 0 0 9px 0;
+}
+.aboutus_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: rgba(255, 0, 64, 0.53); */
+  margin: 20px 0;
+  padding: 15px 5px;
+  border: 1px solid rgba(18, 17, 17, 0.495);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+}
+.card h3 {
+  width: 60%;
+  text-align: center;
 }

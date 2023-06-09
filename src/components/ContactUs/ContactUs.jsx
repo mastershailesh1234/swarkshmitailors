@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 const ContactUs = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ marginTop: "200px" }}>
       <h2 style={{ margin: "10px", borderBottom: "1px solid black" }}>
         Contact Us
       </h2>
